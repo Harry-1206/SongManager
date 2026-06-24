@@ -24,7 +24,6 @@ const GENRE_COLORS: Record<Exclude<Genre, "すべて">, string> = {
 };
 
 const INITIAL_SONGS: Song[] = [
-  [
   { id: 1,  title: "イエス 〜2025 ver.〜", artist: "Acid Black Cherry", key: "原キー", genre: "J-POP", note: "" },
   { id: 2,  title: "逆光", artist: "Ado", key: "原キー", genre: "アニソン", note: "" },
   { id: 3,  title: "カタオモイ", artist: "Aimer", key: "-4", genre: "J-POP", note: "" },
